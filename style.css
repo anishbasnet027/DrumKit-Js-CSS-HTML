@@ -1,28 +1,36 @@
 body {
-    background-color: #181849;
+    background-color: #000000;
 }
 
 h1 {
     text-align: center;
     margin-top: 50px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px
+;
+}
+
+h2 ,h3{
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .drums {
     display: grid;
-    gap: 10px;
+    gap: 5px;
     width: 950px;
     margin: auto;
     grid-template-columns: auto auto auto ;
-    background-color: #2196F3;
-    padding: 10px;
+    background-color: #000000 ;
+    padding: 0px;
     
 }
 .drums > div {
-    background-color: rgb(98, 176, 255);
+    background-color: rgb(76, 208, 129);
     color: white;
     width: 150px;
-    height: 100px;
+    height: 80px;
     margin: 40px;
     text-align: center;
     font-size: 14px;
@@ -30,21 +38,21 @@ h1 {
 
   .playing{
     transform: scale(1.1);
-    border-color: aqua;
-    box-shadow: 0 0 10px #9821f3;
+   
+    box-shadow: 10px 10px 10px #ff0000;
 
   }
 
   .drum{
-    border: .4rem solid black;
+border: .2rem solid #2cffaa;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all 0.08s ease;
   width: 10rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 .5rem rgb(65, 244, 65);
   }
